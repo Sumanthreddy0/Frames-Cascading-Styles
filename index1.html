@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Task-2 VU22CSEN0101952</title>
+<style>
+
+frame{border:5;}
+frame[name="logoFrame"]{background:orange;}
+frame[name="homeFrame"]{background:yellow;}
+frame[name="loginFrame"]{background:yellow;}
+frame[name="registrationFrame"]{background:yellow;}
+frame[name="catalogueFrame"]{background:yellow;}
+frame[name="CartFrame"]{background:yellow;}
+frame[name="contact us"]{background:yellow;}
+frame[name="servicesFrame"]{background:red;}
+frame[name="descriptionFrame"]{background:gray;}
+
+</style>
+
+<frameset rows="30%, 10%,75%" border="5">
+    <frameset cols="20%, 80%">
+        <frame name="logoFrame" src="Logo1.html">
+        <frame name="headerFrame" src="Header0.html">
+    </frameset>
+
+    <frameset cols="10%, 10%, 10%, 10%, 10%,10% ">
+        <frame name="homeFrame" src="Home1.html">
+        <frame name="loginFrame" src="login1.html">
+        <frame name="registrationFrame" src="Registration1.html">
+        <frame name="catalogueFrame" src="Catalogue1.html">
+        <frame name="CartFrame" src="Cart1.html">
+        <frame name="contact us" src="Contact1.html">
+    </frameset>
+
+    <frameset cols="10%, 80%">
+        <frame name="servicesFrame" src="Services1.html">
+        <frame name="descriptionFrame" src="description.html">
+    </frameset>
+</frameset>
+
+<script>
+        function loadContentInDescription(url) {
+            parent.frames['descriptionFrame'].location.href =file:description.html;
+        }
+    </script>
+</html>
+</html>
